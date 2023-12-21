@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --bg-col: #0f0f0f;
+    --sec-bg-col: #161616;
+    --text-col: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: var(--bg-col);
+}
+
+.presmerovavani a{
+    text-decoration: none;
+    color: var(--bg-col);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 50vh;
+    background-color: var(--text-col);
+    margin-left: 30rem;
+    margin-right: 30rem;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--bg-col);
+}
