@@ -51,9 +51,10 @@ ScrollReveal({reset: true,}).reveal('h3.sluzby', { origin: "top" });
 ScrollReveal({reset: true, distance: "540px"}).reveal('.gen1', { origin: "left" });
 ScrollReveal({reset: true, distance: "540px"}).reveal('.gen3', { origin: "right" });
 if (innerWidth < 750) {
-      ScrollReveal({reset: true, distance: "540px"}).reveal('.gen1, .gen3', { origin: "left" });
-      ScrollReveal({reset: true, distance: "540px"}).reveal('.gen2', { origin: "right" });
+    ScrollReveal({reset: true, distance: "540px"}).reveal('.gen1, .gen3', { origin: "left" });
+    ScrollReveal({reset: true, distance: "540px"}).reveal('.gen2', { origin: "right" });
 }
 if (innerWidth < 729) {
-      ScrollReveal({reset: true, distance: "540px"}).reveal('.gen1, .gen3, .gen2', { origin: "left" });
+    ScrollReveal({reset: true, distance: "540px"}).reveal('.gen1, .gen3, .gen2', { origin: "left" });
 }
+
