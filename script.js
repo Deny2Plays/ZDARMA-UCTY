@@ -24,10 +24,12 @@ window.onscroll = () => {
             navLinks.forEach(links => {
                 links.classList.remove("active");
                 document.querySelector("header nav a[href*=" + id + "]").classList.add("active");
-            })
-        }
-    })
-}
+            });
+        };
+    });
+    menuIcon.classList.remove("bx-x-circle");
+    navbar.classList.remove("active");
+};
 
 
 
@@ -58,7 +60,6 @@ if(innerWidth < 750){
 if(innerWidth < 729){
     ScrollReveal({reset: true, distance: "540px"}).reveal('.gen1, .gen3, .gen2', { origin: "left" });
 }
-
 if(innerWidth < 694){
     ScrollReveal({reset: true,}).reveal('.o-nas-content p', { origin: "left" });
 }
